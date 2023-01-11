@@ -6,7 +6,7 @@ Gem::Specification.new do |s|
   s.add_development_dependency('webmock', '>= 2.0.0')
   s.add_runtime_dependency('faraday', '>= 0.10')
   s.add_runtime_dependency('multi_json', '>= 1.0.3')
-  s.add_runtime_dependency('activesupport', '~> 6.1.7')
+  s.add_runtime_dependency('activesupport', '> 5.0')
   s.authors = ["Marcus Vorwaller"]
   s.description = %q{A Ruby wrapper for the AvaTax REST and Search APIs}
   s.post_install_message =<<eos
